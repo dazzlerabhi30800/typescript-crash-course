@@ -136,7 +136,7 @@ function getArea(shape: Shape) {
 
 
 // console.log(getTrueShape({ kind: "Square", side: 4 }));
-console.log(getArea({ kind: "Square", side: 4 }));
+console.log(getArea({ kind: "Rectangle", length: 4, breadth: 8 }));
 
 // console.log(isAdmin({ name: "abhishek", email: "abhis#gmail.com" }));
 // console.log(logValue("2022-03-25"));
