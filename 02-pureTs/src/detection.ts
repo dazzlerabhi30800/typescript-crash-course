@@ -6,6 +6,8 @@ function detectType(val: number | string) {
 }
 
 
+
+
 function provideId(id: string | null) {
     if (!id) {
         console.log("please provide id");
@@ -14,6 +16,8 @@ function provideId(id: string | null) {
     return id.toUpperCase();
 
 }
+
+
 
 
 function printAll(strs: string | string[] | null) {
@@ -59,6 +63,8 @@ function logValue(x: Date | string) {
         return x.toUpperCase();
     }
 }
+
+
 
 
 
@@ -136,7 +142,7 @@ function getArea(shape: Shape) {
 
 
 // console.log(getTrueShape({ kind: "Square", side: 4 }));
-console.log(getArea({ kind: "Rectangle", length: 4, breadth: 8 }));
+console.log(getArea({ kind: "Rectangle", length: 4, breadth: 10 }));
 
 // console.log(isAdmin({ name: "abhishek", email: "abhis#gmail.com" }));
 // console.log(logValue("2022-03-25"));
